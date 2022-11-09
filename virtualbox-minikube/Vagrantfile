@@ -1,6 +1,6 @@
 #IMAGE_NAME = "centos/7" 
 #NODE_NAME = "centos-minikube"
-IMAGE_NAME = "fedora/35-cloud-base"
+IMAGE_NAME = "fedora/36-cloud-base"
 NODE_NAME = "fedora-minikube"
 
 

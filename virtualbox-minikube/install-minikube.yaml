@@ -136,6 +136,7 @@
         path: /home/vagrant/.bashrc
         line: source <(kubectl completion bash)
         insertafter: EOF
+        create: yes
 
     - name: enable kubectl alias k
       lineinfile:
