@@ -191,6 +191,10 @@
         owner: vagrant
         group: vagrant
 
+    - name: Pause for 5 minutes
+      ansible.builtin.pause:
+        minutes: 5
+
     - name: Install and enable kubernetes dashboard components
       shell: kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
       #shell: sudo kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended.yaml
